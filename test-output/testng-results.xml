@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4008" started-at="2020-09-29T14:55:31 IST" finished-at="2020-09-29T14:55:35 IST">
+  <suite name="Default suite" duration-ms="5967" started-at="2020-09-29T17:43:19 IST" finished-at="2020-09-29T17:43:25 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4008" started-at="2020-09-29T14:55:31 IST" finished-at="2020-09-29T14:55:35 IST">
-      <class name="com.rest.automation.Basic2">
-        <test-method status="PASS" signature="postTest()[pri:0, instance:com.rest.automation.Basic2@6acdbdf5]" name="postTest" duration-ms="3966" started-at="2020-09-29T14:55:31 IST" finished-at="2020-09-29T14:55:35 IST">
+    <test name="Default test" duration-ms="5967" started-at="2020-09-29T17:43:19 IST" finished-at="2020-09-29T17:43:25 IST">
+      <class name="com.rest.automation.AddandDelete">
+        <test-method status="PASS" signature="addDelete()[pri:0, instance:com.rest.automation.AddandDelete@27a5f880]" name="addDelete" duration-ms="5904" started-at="2020-09-29T17:43:19 IST" finished-at="2020-09-29T17:43:25 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- postTest -->
-      </class> <!-- com.rest.automation.Basic2 -->
+        </test-method> <!-- addDelete -->
+      </class> <!-- com.rest.automation.AddandDelete -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
