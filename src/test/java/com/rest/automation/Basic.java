@@ -34,7 +34,7 @@ public class Basic {
 	public void setUp() throws IOException
 	{
 
-		FileInputStream fis =new FileInputStream("C:\\Users\\tanumay123\\Desktop\\REST API Testing(Automation) from scratch-Rest Assured java\\RestAPI_projects\\RESTAPIAutomationBasic\\src\\test\\java\\Resources\\base.properties");
+		FileInputStream fis =new FileInputStream("C:\\Users\\tanumay123\\Desktop\\REST API Testing(Automation) from scratch-Rest Assured java\\RestAPI_projects\\RESTAPIAutomationBasic\\src\\test\\java\\PageObjectFiles\\base.properties");
 
 		pr.load(fis);
 

@@ -3,11 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.rest.automation.AddandDelete">
+      <class name="com.rest.automation.Basic">
         <methods>
-          <include name="addDelete"/>
+          <include name="RestTestAuto"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.rest.automation.AddandDelete -->
+      </class> <!-- com.rest.automation.Basic -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
