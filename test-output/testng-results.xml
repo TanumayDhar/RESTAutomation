@@ -1,21 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5748" started-at="2020-09-29T19:24:47 IST" finished-at="2020-09-29T19:24:52 IST">
+  <suite name="Suite" duration-ms="11760" started-at="2020-09-29T19:33:04 IST" finished-at="2020-09-29T19:33:16 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5748" started-at="2020-09-29T19:24:47 IST" finished-at="2020-09-29T19:24:52 IST">
-      <class name="com.rest.automation.AddandDelete">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.rest.automation.AddandDelete@74650e52]" name="setUp" is-config="true" duration-ms="11" started-at="2020-09-29T19:24:47 IST" finished-at="2020-09-29T19:24:47 IST">
+    <test name="Test" duration-ms="11760" started-at="2020-09-29T19:33:04 IST" finished-at="2020-09-29T19:33:16 IST">
+      <class name="com.rest.automation.Basic">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.rest.automation.Basic@17579e0f]" name="setUp" is-config="true" duration-ms="0" started-at="2020-09-29T19:33:04 IST" finished-at="2020-09-29T19:33:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="addDelete()[pri:0, instance:com.rest.automation.AddandDelete@74650e52]" name="addDelete" duration-ms="5704" started-at="2020-09-29T19:24:47 IST" finished-at="2020-09-29T19:24:52 IST">
+        <test-method status="PASS" signature="RestTestAuto()[pri:0, instance:com.rest.automation.Basic@17579e0f]" name="RestTestAuto" duration-ms="2651" started-at="2020-09-29T19:33:14 IST" finished-at="2020-09-29T19:33:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RestTestAuto -->
+      </class> <!-- com.rest.automation.Basic -->
+      <class name="com.rest.automation.AddandDelete">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.rest.automation.AddandDelete@4b1c1ea0]" name="setUp" is-config="true" duration-ms="11" started-at="2020-09-29T19:33:04 IST" finished-at="2020-09-29T19:33:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addDelete()[pri:0, instance:com.rest.automation.AddandDelete@4b1c1ea0]" name="addDelete" duration-ms="4749" started-at="2020-09-29T19:33:09 IST" finished-at="2020-09-29T19:33:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addDelete -->
       </class> <!-- com.rest.automation.AddandDelete -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.rest.automation.Basic2">
+        <test-method status="PASS" signature="baseSetup()[pri:0, instance:com.rest.automation.Basic2@6acdbdf5]" name="baseSetup" is-config="true" duration-ms="0" started-at="2020-09-29T19:33:04 IST" finished-at="2020-09-29T19:33:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseSetup -->
+        <test-method status="PASS" signature="postTest()[pri:0, instance:com.rest.automation.Basic2@6acdbdf5]" name="postTest" duration-ms="4294" started-at="2020-09-29T19:33:05 IST" finished-at="2020-09-29T19:33:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTest -->
+      </class> <!-- com.rest.automation.Basic2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
