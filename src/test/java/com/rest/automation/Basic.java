@@ -1,6 +1,8 @@
 package com.rest.automation;
 
 import io.restassured.RestAssured;
+
+import org.apache.logging.log4j.*;
 import io.restassured.http.ContentType;
 
 import static io.restassured.RestAssured.given;
@@ -11,6 +13,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
+import org.apache.logging.log4j.LogManager;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -26,7 +29,7 @@ public class Basic {
 	//content type - xml or Json
 	// header response - from which server
 	
-	
+	Logger log=LogManager.getLogger(Basic.class.getName());
 	Properties pr=new Properties();
 	
 	
@@ -53,9 +56,12 @@ public class Basic {
 		//RestAssured.put();
 		//RestAssured.get();
 		//RestAssured.post();
-		//RestAssured.when();
+		//RestAssured.when(); 
 
-
+		//Log implementation
+		
+		log.info("Base URL information"+pr.getProperty("BASE_URL") );
+		
 		RestAssured.baseURI=pr.getProperty("BASE_URL");
 
 		given().
