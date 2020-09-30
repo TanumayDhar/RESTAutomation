@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5136" started-at="2020-09-30T17:56:44 IST" finished-at="2020-09-30T17:56:49 IST">
+  <suite name="Default suite" duration-ms="55592" started-at="2020-09-30T19:22:32 IST" finished-at="2020-09-30T19:23:28 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5136" started-at="2020-09-30T17:56:44 IST" finished-at="2020-09-30T17:56:49 IST">
+    <test name="Default test" duration-ms="55592" started-at="2020-09-30T19:22:32 IST" finished-at="2020-09-30T19:23:28 IST">
       <class name="com.rest.automation.Basic">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.rest.automation.Basic@b2c9a9c]" name="setUp" is-config="true" duration-ms="13" started-at="2020-09-30T17:56:44 IST" finished-at="2020-09-30T17:56:44 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.rest.automation.Basic@6913c1fb]" name="setUp" is-config="true" duration-ms="8" started-at="2020-09-30T19:22:32 IST" finished-at="2020-09-30T19:22:32 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="RestTestAuto()[pri:0, instance:com.rest.automation.Basic@b2c9a9c]" name="RestTestAuto" duration-ms="5072" started-at="2020-09-30T17:56:44 IST" finished-at="2020-09-30T17:56:49 IST">
+        <test-method status="PASS" signature="RestTestAuto()[pri:0, instance:com.rest.automation.Basic@6913c1fb]" name="RestTestAuto" duration-ms="55547" started-at="2020-09-30T19:22:32 IST" finished-at="2020-09-30T19:23:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RestTestAuto -->
